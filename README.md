@@ -3,36 +3,32 @@ A deep dive into Burger King's sales data. This project uses Power BI to showcas
 
 
 ## 📌 Project Overview
-Yeh project Burger King ke Jaipur outlet ka sales performance review karta hai taaki store manager aasani se revenue trends aur top-selling items ko track kar sake[cite: 1]. Is data analysis project mein ek interactive Power BI dashboard banaya gaya hai jo 2026 ke sales data ka deep dive provide karta hai[cite: 1]. Is dashboard ko business decision-making aur agle quarter ki promotions plan karne ke liye design kiya gaya hai[cite: 1].
+This project evaluates the sales performance of a Burger King outlet in Jaipur to help store management easily track revenue trends and top-selling items[cite: 1]. It features an interactive Power BI dashboard that provides a deep dive into 2026 sales data to support business decision-making and plan upcoming promotions[cite: 1].
 
 ## 🎯 Problem Statement
-Store management ko ek aise simple aur effective dashboard ki jarurat thi jo in sawalo ke jawab de sake[cite: 1]:
-* Overall revenue, total orders, aur total items sold kitne hain?[cite: 1]
-* Month-by-month sales me kya changes aa rahe hain?[cite: 1]
-* Revenue ke hisaab se top 5 menu items kaunse hain?[cite: 1]
-* Kaunsi menu categories sabse zyada sales drive kar rahi hain?[cite: 1]
+The store management needed a simple, effective dashboard to answer the following questions:
+* What is the overall revenue, total orders, and total items sold?
+* How are sales changing month by month?
+* What are the top 5 menu items by revenue?
+* Which menu categories drive the most sales?
 
 ## 📂 Dataset Used
-Data do primary CSV files se extract kiya gaya hai[cite: 1]:
-* `menu.csv`: Isme menu item ID, item name, category, aur price ki details hain[cite: 1].
-* `order_details.csv`: Isme order ID, order date, order time, aur item ID shamil hain[cite: 1].
+Data was extracted from two primary CSV files:
+* `menu.csv`: Contains menu item ID, item name, category, and price.
+* `order_details.csv`: Contains order ID, order date, order time, and item ID.
 
 ## 💡 Key Insights & KPIs
-Dashboard ke analysis se ye major insights nikalkar aayi hain:
-* **Total Revenue:** ₹ 1.75M[cite: 2]
-* **Total Orders Placed:** 5.37K[cite: 2]
-* **Total Items Sold:** 12.234K[cite: 2]
-* **Top Selling Item:** 'Chicken Whopper Meal' sabse zyada revenue generate karne wala item hai, jiske baad 'BK Classic Veg Burger' ka number aata hai[cite: 2].
-* **Category Performance:** 'Meals' category total sales ka sabse bada hissa (28.19%) drive karti hai, aur uske baad 'Veg Burger' (22.55%) ka contribution hai[cite: 2].
-* **Sales Trend:** Monthly revenue progression ek U-shape trend dikhata hai, jisme January se February tak dip aaya aur March me wapas growth dekhne ko mili[cite: 2].
+The dashboard analysis revealed the following major insights:
+* **Total Revenue:** ₹ 1.75M
+* **Total Orders Placed:** 5.37K
+* **Total Items Sold:** 12.234K
+* **Top Selling Item:** 'Chicken Whopper Meal' is the highest revenue-generating item, followed by the 'BK Classic Veg Burger'.
+* **Category Performance:** The 'Meals' category drives the largest share of total sales (28.19%), closely followed by 'Veg Burger' (22.55%).
+* **Sales Trend:** Monthly revenue progression displays a U-shaped trend, with a dip from January to February followed by recovery and growth in March.
 
 ## 🛠️ Tools & Technologies
-* **Data Visualization:** Power BI[cite: 1]
+* **Data Visualization:** Power BI
 * **Data Manipulation:** Power Query / DAX
 * **Database Management:** SQL (Data extraction and initial exploration)
 
-## 🚀 How to Use
-1. Is repository ko clone karo:
-   `git clone <your-repo-link-here>`
-2. Repository ke folder me ja kar `order_details.csv` aur `menu.csv` files ko check karo[cite: 1].
-3. Dashboard explore karne ke liye `.pbix` (Power BI) file ko Power BI Desktop me open karo.
+
